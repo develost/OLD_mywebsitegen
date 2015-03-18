@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="stylesheet" type="text/css" href="./css/dlMetro.css">
+        <link rel="stylesheet" type="text/css" href="./css/custom.css">
+        <script src="./js/dlMetro.js"></script>
+    </head>
+    <body>
+        <div class="main">
+            <div class="fixed-header fallback-size xlarge-size xxlarge-size menu-container">
+                <a href="https://github.com/develost"><img style="position: absolute; top: 0; left: 0; border: 0;" src="./img/forkmeongithub.png" alt="Fork me on GitHub"></a>
+                <ul class="right">
+                    <li><a href="#"><span><img src="./img/50x50.jpg" height="50px"></span></a></li>
+                </ul>              
+            </div>
+            <div class="flow">
+                <div class="flow-header min-size mid-size large-size menu-container">
+                    <a href="https://github.com/develost"><img style="position: absolute; top: 0; left: 0; border: 0;" src="./img/forkmeongithub.png" alt="Fork me on GitHub"></a>
+                    <ul class="right">
+                        <li><a href="#"><span><img src="./img/50x50.jpg" height="50px"></span></a></li>
+                    </ul>              
+                </div>
+                <div class="content all-size">
+                    <div class="inner-content">
+                        <div class="c6-all-size last">
+                            <div class="cell">
+                                {{ website.getPageById("under-development").content }}
+                            </div>
+                        </div> 
+                        <div class="c6-all-size last">
+                            <div class="cell made-with">
+                                {{ website.getPageById("made-with").content }}
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="flow-footer all-size credits-container">
+                        <p>
+                        <img height="50px" src="./img/twitter.png"> <img height="50px" src="./img/github.png"> <img height="50px" src="mail.png"><br>
+                        2015 &#8211; develost.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="debug all-size" onclick="this.style.display='none';">
+                <div class="fallback-size">fallback version <br> with<noscript>out</noscript> javascript</div>
+                <div class="min-size">min version <br> with<noscript>out</noscript> javascript</div>
+                <div class="mid-size">mid version <br> with<noscript>out</noscript> javascript</div>
+                <div class="large-size">large version <br> with<noscript>out</noscript> javascript</div>
+                <div class="xlarge-size">xlarge version <br> with<noscript>out</noscript> javascript</div>
+                <div class="xxlarge-size">xxlarge version <br> with<noscript>out</noscript> javascript</div>
+                <script>document.write("click to hide");</script>
+            </div>        
+    </body>
+</html>

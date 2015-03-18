@@ -1,0 +1,94 @@
+/*.debug{display:none;}*/ /* decomment in production environment */
+
+* {margin: 0; padding: 0;}
+a {text-decoration:none;color: #000000;}
+body{overflow:scroll-x;margin: 0;padding: 0;border: 0;height:100%;width:100%;font-family:Verdana;color:black;}
+.right{float:right;}
+.left{float:left;}
+.menu-container{background:#222222;overflow:auto;}
+.menu-container > ul { list-style-type: none; margin: 0; padding: 10px; font-size: 0; display: inline-block;}
+.menu-container > ul > li { display: inline-block; *display: inline; zoom: 1; }
+.menu-container > ul > li > a { display: inline-block; padding: 5px;  font-size: 13px; text-decoration: none;color: #000000;}
+.menu-container > ul > li > a:hover { background: #EEEEEE; }
+.menu-container > ul > li > a > span{background-color:#FFFFFF;display: table-cell;height:117px;width:117px;overflow:hidden;text-align:center;vertical-align: middle;}
+.menu-container > ul > li > span { display: inline-block; padding: 5px;  font-size: 13px; text-decoration: none;color: #000000;}
+.menu-container > ul > li > span:hover { background: #EEEEEE; }
+.menu-container > ul > li > span > span{background-color:#FFFFFF;display: table-cell;height:50px;width:100px;overflow:hidden;text-align:center;vertical-align: middle;}
+.menu-container > ul > li > span > span > input {height:100%;width:100%;border:0;background-color:#FFFFFF;font-family:Verdana;}
+.menu-container > ul.left > li:first-child > a > span{background-color:transparent;height:50px;width:200px;}
+.menu-container > ul.left > li:first-child > a:hover {background-color:transparent;}
+.content{padding:0px;/*background: repeating-linear-gradient(45deg,#5d9634,#5d9634 15px,#538c2b 10px,#538c2b 22px);*/
+background: url('../img/stripes.jpg') repeat;
+}
+.inner-content{padding-left:20px;padding-right:20px;padding-top:20px;}
+.cell{background: #EEEEEE;padding:10px;margin:10px;}
+.cell > h1{background:#222222;padding:10px;text-align:center;margin-bottom:10px;color: #FFFFFF;margin-top:-10px;margin-left:-10px;margin-right:-10px;}
+.credits-container{background:#222222;color: #FFFFFF;}
+.credits-container > p {text-align:center;padding-top:17px;}
+.last{padding-bottom:20px;}
+
+@keyframes slidy {0% { left: 0%; } 20% { left: 0%; } 25% { left: -100%; } 45% { left: -100%; } 50% { left: -200%; } 70% { left: -200%; } 75% { left: -300%; } 95% { left: -300%; } 100% { left: -400%; }}
+@-webkit-keyframes slidy {0% { left: 0%; } 20% { left: 0%; } 25% { left: -100%; } 45% { left: -100%; } 50% { left: -200%; } 70% { left: -200%; } 75% { left: -300%; } 95% { left: -300%; } 100% { left: -400%; }}
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure { position: relative;  width: 500%;  margin: 0;  left: 0;  text-align: left;  font-size: 0;  -webkit-animation: 10s slidy infinite; animation: 10s slidy infinite; }
+
+/*div.made-with{background: url('../img/gear-27114_640.png') no-repeat right bottom;}*/
+div.made-with{background:#FFFFFF;}
+
+.color-red{color: red;}
+
+/* fallback */
+    .fixed-header   {height:149px;}
+    .flow                   {top:149px;bottom:0px;}
+    .flow-header     {height:0px;}
+    .flow-footer     {height:100px;}
+    .fixed-footer   {height:0px;}
+
+/* min */
+@media only screen and (max-width: 320px) {
+    .fixed-header   {height:0px;}
+    .flow                   {top:0px;bottom:0px;}
+    .flow-header     {height:149px;}
+    .flow-footer     {height:100px;}
+    .fixed-footer   {height:0px;}
+}
+
+/* mid */
+@media only screen and (min-width: 320px) and (max-width: 640px) {
+    .fixed-header   {height:0px;}
+    .flow                   {top:0px;bottom:0px;}
+    .flow-header     {height:149px;}
+    .flow-footer     {height:100px;}
+    .fixed-footer   {height:0px;}
+}
+
+/* large */
+@media only screen and (min-width: 640px) and (max-width: 960px) {
+    .fixed-header   {height:0px;}
+    .flow                   {top:0px;bottom:0px;}
+    .flow-header     {height:149px;}
+    .flow-footer     {height:100px;}
+    .fixed-footer   {height:0px;}
+}
+
+/* xlarge */
+@media only screen and (min-width: 960px) and (max-width: 1280px) {
+    .fixed-header   {height:149px;}
+    .flow                   {top:149px;bottom:0px;}
+    .flow-header     {height:0px;}
+    .flow-footer     {height:100px;}
+    .fixed-footer   {height:0px;}
+}
+
+/* xxlarge */
+@media only screen and (min-width: 1280px){
+    .fixed-header   {height:149px;}
+    .flow                   {top:149px;bottom:0px;}
+    .flow-header     {height:0px;}
+    .flow-footer     {height:100px;}
+    .fixed-footer   {height:0px;}
+}
+
+
+

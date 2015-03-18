@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<site>
+    <title>develost.com</title>
+    <subtitle>lost in development</subtitle>
+    <outputFolder>../website/current</outputFolder>
+    <contentFolder>./content</contentFolder>
+    <templateFolder>./template</templateFolder>
+    <baseUrl>http://www.develost.com</baseUrl>
+    <pages>
+        <page id="home">
+            <title>Home page</title>
+            <subtitle>st</subtitle>
+            <order>10</order>            
+            <author>me</author>
+            <link>.</link>
+            <home>True</home>
+            <resource>index.md</resource>
+            <resourceType>internal</resourceType>
+            <template>home.html</template>
+            <createdOn>20150315000000</createdOn>
+        </page>
+        <page id="made-with">
+            <title>Made with</title>
+            <subtitle></subtitle>
+            <order>-10</order>            
+            <author>me</author>
+            <link></link>
+            <home>False</home>
+            <resource>made-with.md</resource>
+            <resourceType>internal</resourceType>
+            <template>general.html</template>
+            <createdOn>20150315000000</createdOn>
+        </page>
+        <page id="under-development">
+            <title>under development</title>
+            <subtitle></subtitle>
+            <order>-11</order>            
+            <author>me</author>
+            <link></link>
+            <home>False</home>
+            <resource>under-development.md</resource>
+            <resourceType>internal</resourceType>
+            <template>general.html</template>
+            <createdOn>20150315000000</createdOn>
+        </page>
+    </pages>
+</site>
