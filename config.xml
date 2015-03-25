@@ -2,7 +2,7 @@
 <site>
     <title>develost.com</title>
     <subtitle>lost in development</subtitle>
-    <outputFolder>../website/current</outputFolder>
+    <outputFolder>../website</outputFolder>
     <contentFolder>./content</contentFolder>
     <templateFolder>./template</templateFolder>
     <baseUrl>http://www.develost.com</baseUrl>
