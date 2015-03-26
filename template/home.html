@@ -17,11 +17,26 @@
                 </div>
                 <div class="content all-size">
                     <div class="inner-content">
-                        <div class="c6-all-size last">
+                        <div class="c6-all-size c2-xlarge-size c2-xxlarge-size">
+                            <div class="cell">
+                                {{ website.getPageById("dlMetro-summary").content }}
+                            </div>
+                        </div>                    
+                        <div class="c6-all-size c2-xlarge-size c2-xxlarge-size">
+                            <div class="cell">
+                                {{ website.getPageById("tython-summary").content }}
+                            </div>
+                        </div>
+                        <div class="c6-all-size c2-xlarge-size c2-xxlarge-size">
+                            <div class="cell">
+                                {{ website.getPageById("websiteupdater-summary").content }}
+                            </div>
+                        </div>
+                        <div class="c6-all-size">
                             <div class="cell">
                                 {{ website.getPageById("under-development").content }}
                             </div>
-                        </div> 
+                        </div>                    
                         <div class="c6-all-size last">
                             <div class="cell made-with">
                                 {{ website.getPageById("made-with").content }}

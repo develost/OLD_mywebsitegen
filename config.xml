@@ -17,7 +17,7 @@
             <resource>index.md</resource>
             <resourceType>internal</resourceType>
             <template>home.html</template>
-            <createdOn>20150315000000</createdOn>
+            <createdOn>20150401000000</createdOn>
         </page>
         <page id="made-with">
             <title>Made with</title>
@@ -29,7 +29,7 @@
             <resource>made-with.md</resource>
             <resourceType>internal</resourceType>
             <template>general.html</template>
-            <createdOn>20150315000000</createdOn>
+            <createdOn>20150401000000</createdOn>
         </page>
         <page id="under-development">
             <title>under development</title>
@@ -41,7 +41,57 @@
             <resource>under-development.md</resource>
             <resourceType>internal</resourceType>
             <template>general.html</template>
-            <createdOn>20150315000000</createdOn>
+            <createdOn>20150401000000</createdOn>
         </page>
+        <page id="dlMetro-summary">
+            <title>dlMetro summary</title>
+            <subtitle></subtitle>
+            <order>-11</order>            
+            <author>me</author>
+            <link></link>
+            <home>False</home>
+            <resource>dlMetro-summary.md</resource>
+            <resourceType>internal</resourceType>
+            <template>general.html</template>
+            <createdOn>20150401000000</createdOn>
+        </page>
+        <page id="dlMetro-summary">
+            <title>dlMetro summary</title>
+            <subtitle></subtitle>
+            <order>-11</order>            
+            <author>me</author>
+            <link></link>
+            <home>False</home>
+            <resource>dlMetro-summary.md</resource>
+            <resourceType>internal</resourceType>
+            <template>general.html</template>
+            <createdOn>20150401000000</createdOn>
+        </page> 
+        <page id="tython-summary">
+            <title>Tython summary</title>
+            <subtitle></subtitle>
+            <order>-11</order>            
+            <author>me</author>
+            <link></link>
+            <home>False</home>
+            <resource>dlTython-summary.md</resource>
+            <resourceType>internal</resourceType>
+            <template>general.html</template>
+            <createdOn>20150401000000</createdOn>
+        </page>         
+        <page id="websu-summary">
+            <title>Websu summary</title>
+            <subtitle></subtitle>
+            <order>-11</order>            
+            <author>me</author>
+            <link></link>
+            <home>False</home>
+            <resource>websu-summary.md</resource>
+            <resourceType>internal</resourceType>
+            <template>general.html</template>
+            <createdOn>20150401000000</createdOn>
+        </page>
+
+        
     </pages>
 </site>
