@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <site>
     <title>develost.com</title>
-    <subtitle>lost in development</subtitle>
+    <subtitle>Open space for developers</subtitle>
     <outputFolder>../_mywebsiteout</outputFolder>
     <contentFolder>./content</contentFolder>
     <templateFolder>./template</templateFolder>
@@ -16,7 +16,7 @@
             <home>True</home>
             <resource>index.md</resource>
             <resourceType>internal</resourceType>
-            <template>home.html</template>
+            <template>homeTemplate.html</template>
             <createdOn>20150401000000</createdOn>
         </page>
         <page id="made-with">
@@ -28,7 +28,7 @@
             <home>False</home>
             <resource>made-with.md</resource>
             <resourceType>internal</resourceType>
-            <template>general.html</template>
+            <template>genericTemplate.html</template>
             <createdOn>20150401000000</createdOn>
         </page>
         <page id="under-development">
@@ -40,7 +40,7 @@
             <home>False</home>
             <resource>under-development.md</resource>
             <resourceType>internal</resourceType>
-            <template>general.html</template>
+            <template>genericTemplate.html</template>
             <createdOn>20150401000000</createdOn>
         </page>
         <page id="dlMetro-summary">
@@ -52,7 +52,7 @@
             <home>False</home>
             <resource>dlMetro-summary.md</resource>
             <resourceType>internal</resourceType>
-            <template>general.html</template>
+            <template>genericTemplate.html</template>
             <createdOn>20150401000000</createdOn>
         </page> 
         <page id="tython-summary">
@@ -64,7 +64,7 @@
             <home>False</home>
             <resource>tython-summary.md</resource>
             <resourceType>internal</resourceType>
-            <template>general.html</template>
+            <template>genericTemplate.html</template>
             <createdOn>20150401000000</createdOn>
         </page>         
         <page id="websu-summary">
@@ -76,7 +76,7 @@
             <home>False</home>
             <resource>websu-summary.md</resource>
             <resourceType>internal</resourceType>
-            <template>general.html</template>
+            <template>genericTemplate.html</template>
             <createdOn>20150401000000</createdOn>
         </page>
     </pages>
