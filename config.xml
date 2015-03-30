@@ -54,7 +54,31 @@
             <resourceType>internal</resourceType>
             <template>genericTemplate.html</template>
             <createdOn>20150401000000</createdOn>
-        </page> 
+        </page>
+        <page id="dlMetro">
+            <title>dlMetro</title>
+            <subtitle></subtitle>
+            <order>1</order>            
+            <author>me</author>
+            <link>dlMetro</link>
+            <home>False</home>
+            <resource>dlMetro.md</resource>
+            <resourceType>internal</resourceType>
+            <template>genericTemplate.html</template>
+            <createdOn>20150401000000</createdOn>
+        </page>
+        <page id="dlMetro-examples">
+            <title>dlMetro examples</title>
+            <subtitle></subtitle>
+            <order>-1</order>            
+            <author>me</author>
+            <link>dlMetro-examples</link>
+            <home>False</home>
+            <resource>examples/dlMetro-examples</resource>
+            <resourceType>external</resourceType>
+            <template>genericTemplate.html</template>
+            <createdOn>20150401000000</createdOn>
+        </page>        
         <page id="tython-summary">
             <title>Tython summary</title>
             <subtitle></subtitle>
