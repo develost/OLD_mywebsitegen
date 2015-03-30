@@ -72,9 +72,21 @@
             <subtitle></subtitle>
             <order>-1</order>            
             <author>me</author>
-            <link>dlMetro-examples</link>
+            <link>dlMetro/examples</link>
             <home>False</home>
             <resource>examples/dlMetro-examples</resource>
+            <resourceType>external</resourceType>
+            <template>genericTemplate.html</template>
+            <createdOn>20150401000000</createdOn>
+        </page>
+        <page id="dlMetro-core">
+            <title>dlMetro core</title>
+            <subtitle></subtitle>
+            <order>-1</order>            
+            <author>me</author>
+            <link>dlMetro/core</link>
+            <home>False</home>
+            <resource>examples/core</resource>
             <resourceType>external</resourceType>
             <template>genericTemplate.html</template>
             <createdOn>20150401000000</createdOn>

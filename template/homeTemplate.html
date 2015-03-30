@@ -2,11 +2,13 @@
 {{     headerContent = header.read() }}
 {{     headerContent }}
 {{ end with }}
+    <a href="{{ website.getPageById('dlMetro').link }}">
     <div class="c6-all-size c2-xlarge-size c2-xxlarge-size">
         <div class="cell">
             {{ website.getPageById("dlMetro-summary").content }}
         </div>
-    </div>                    
+    </div>
+    </a>
     <div class="c6-all-size c2-xlarge-size c2-xxlarge-size">
         <div class="cell">
             {{ website.getPageById("tython-summary").content }}
