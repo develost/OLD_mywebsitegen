@@ -1,4 +1,4 @@
-/*.debug{display:none;}*/ /* decomment in production environment */
+.debug{display:none;} /* decomment in production environment */
 
 * {margin: 0; padding: 0;}
 a {text-decoration:none;color: #000000;}
@@ -18,8 +18,8 @@ body{overflow:scroll-x;margin: 0;padding: 0;border: 0;height:100%;width:100%;fon
 .menu-container > ul.left > li:first-child > a > span{background-color:transparent;height:50px;width:200px;}
 .menu-container > ul.left > li:first-child > a:hover {background-color:transparent;}
 .content{padding:0px;background: url('../img/stripes.jpg') repeat;}
-.inner-content{padding-left:20px;padding-right:20px;padding-top:20px;}
-.cell{background: #EEEEEE;padding:10px;margin:10px;}
+.inner-content{padding-left:15px;padding-right:15px;padding-top:15px;}
+.cell{background: #EEEEEE;padding:10px;margin:15px;}
 .cell > h1{background:#222222;padding:10px;text-align:center;margin-bottom:10px;color: #FFFFFF;margin-top:-10px;margin-left:-10px;margin-right:-10px;}
 .cell strong {font-weight:bold;}
 .cell ul {list-style-type:circle;margin-left:1em;}
@@ -27,7 +27,7 @@ body{overflow:scroll-x;margin: 0;padding: 0;border: 0;height:100%;width:100%;fon
 .cell p{margin-top:5px;margin-bottom:5px;}
 .credits-container{background:#222222;color: #FFFFFF;}
 .credits-container > p {text-align:center;padding-top:17px;}
-.last{padding-bottom:20px;}
+.last{padding-bottom:15px;}
 
 @keyframes slidy         {0% { left: 0%; } 20% { left: 0%; } 25% { left: -100%; } 45% { left: -100%; } 50% { left: -200%; } 70% { left: -200%; } 75% { left: -300%; } 95% { left: -300%; } 100% { left: -400%; }}
 @-webkit-keyframes slidy {0% { left: 0%; } 20% { left: 0%; } 25% { left: -100%; } 45% { left: -100%; } 50% { left: -200%; } 70% { left: -200%; } 75% { left: -300%; } 95% { left: -300%; } 100% { left: -400%; }}
