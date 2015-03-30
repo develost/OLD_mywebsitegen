@@ -1,3 +1,4 @@
-# website updater summary
+# websu
 
-TODO
+Just an easy way to update the content of a website
+
