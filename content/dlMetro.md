@@ -1,3 +1,11 @@
+{{ website.cell('6','dlMetro','','') }}
+#dlMetro
+
+How to dress a web site with Windows 8 metro UI?
+
+{{ website.endCell() }}
+
+
 {{ website.cell('223663','dlMetro-examples','','/00_readme.html') }}
 #readme
 ![Readme Example](./img/00_readme.png "Readme Example")
@@ -10,6 +18,12 @@ The example generated following the readme on github
 Basic example, with different headers and footers
 {{ website.endCell() }}
 
+{{ website.cell('223663','dlMetro-examples','','/02_fixed_flow_header.html') }}
+#headers: fixed and flow
+![Fixed and flow heares](./img/02_fixed_flow_header.png "Fixed and flow heares")
+Use of fixed and flow header
+{{ website.endCell() }}
+
 
 
 
@@ -17,15 +31,6 @@ Basic example, with different headers and footers
 <div class="cell">
 #readme
 
-
-
-[00_readme](dlMetro/examples/00_readme.html "![Readme Example](./img/00_readme.png "Readme Example")") The example found on readme.md
-
-
-
-[01_basic](dlMetro/examples/01_basic.html "01_basic") Show basic example, with different headers and footers
-
-[02_fixed_flow_header](dlMetro/examples/02_fixed_flow_header.html "02_fixed_flow_header") Use of fixed and flow header
 
 [03_custom_cell](dlMetro/examples/03_custom_cell.html "03_custom_cell") Modify cell appearance 
 
