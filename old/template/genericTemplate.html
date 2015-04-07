@@ -1,9 +1,0 @@
-{{ with open('./template/genericHeader.html','r') as header }}
-{{     headerContent = header.read() }}
-{{     headerContent }}
-{{ end with }}
-{{ currentPage.content }}
-{{ with open('./template/genericFooter.html','r') as footer }}
-{{     footerContent = footer.read() }}
-{{     footerContent }}
-{{ end with }}
