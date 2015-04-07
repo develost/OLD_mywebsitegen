@@ -14,7 +14,43 @@
             <author>me</author>
             <link>.</link>
             <home>True</home>
-            <resource>index.md</resource>
+            <resource>index2.md</resource>
+            <resourceType>internal</resourceType>
+            <template>genericTemplate.html</template>
+            <createdOn>20150401000000</createdOn>
+        </page>
+        <page id="made-with">
+            <title>Made with</title>
+            <subtitle></subtitle>
+            <order>-10</order>            
+            <author>me</author>
+            <link></link>
+            <home>False</home>
+            <resource>made-with.md</resource>
+            <resourceType>internal</resourceType>
+            <template>genericTemplate.html</template>
+            <createdOn>20150401000000</createdOn>
+        </page>
+        <page id="under-development">
+            <title>under development</title>
+            <subtitle></subtitle>
+            <order>-11</order>            
+            <author>me</author>
+            <link></link>
+            <home>False</home>
+            <resource>under-development.md</resource>
+            <resourceType>internal</resourceType>
+            <template>genericTemplate.html</template>
+            <createdOn>20150401000000</createdOn>
+        </page>
+        <page id="dlMetro-summary">
+            <title>dlMetro summary</title>
+            <subtitle></subtitle>
+            <order>-11</order>            
+            <author>me</author>
+            <link></link>
+            <home>False</home>
+            <resource>dlMetro-summary.md</resource>
             <resourceType>internal</resourceType>
             <template>genericTemplate.html</template>
             <createdOn>20150401000000</createdOn>
@@ -55,26 +91,26 @@
             <template>genericTemplate.html</template>
             <createdOn>20150401000000</createdOn>
         </page>        
-        <page id="tython">
-            <title>Tython</title>
+        <page id="tython-summary">
+            <title>Tython summary</title>
             <subtitle></subtitle>
             <order>-11</order>            
             <author>me</author>
-            <link>tython</link>
+            <link></link>
             <home>False</home>
-            <resource>tython.md</resource>
+            <resource>tython-summary.md</resource>
             <resourceType>internal</resourceType>
             <template>genericTemplate.html</template>
             <createdOn>20150401000000</createdOn>
         </page>         
-        <page id="websu">
-            <title>Websu</title>
+        <page id="websu-summary">
+            <title>Websu summary</title>
             <subtitle></subtitle>
             <order>-11</order>            
             <author>me</author>
-            <link>websu</link>
+            <link></link>
             <home>False</home>
-            <resource>websu.md</resource>
+            <resource>websu-summary.md</resource>
             <resourceType>internal</resourceType>
             <template>genericTemplate.html</template>
             <createdOn>20150401000000</createdOn>

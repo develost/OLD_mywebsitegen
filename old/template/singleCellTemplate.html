@@ -2,7 +2,11 @@
 {{     headerContent = header.read() }}
 {{     headerContent }}
 {{ end with }}
-{{ currentPage.content }}
+    <div class="c6-all-size last">
+        <div class="cell">
+            {{ currentPage.content }}
+        </div>
+    </div>                    
 {{ with open('./template/genericFooter.html','r') as footer }}
 {{     footerContent = footer.read() }}
 {{     footerContent }}

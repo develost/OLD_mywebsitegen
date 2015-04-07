@@ -1,14 +1,13 @@
-{{ website.cell('223663','dlMetro-examples','','/00_readme.html') }}
+
+<a href="{{ website.getPageById('dlMetro-examples').link }}/00_readme.html">
+<div class="c2-all-size last">
+<div class="cell">
 #readme
 ![Readme Example](./img/00_readme.png "Readme Example")
-The example generated following the readme on github
-{{ website.endCell() }}
-
-{{ website.cell('223663','dlMetro-examples','','/01_basic.html') }}
-#basic
-![Basic Example](./img/01_basic.png "Basic Example")
-Basic example, with different headers and footers
-{{ website.endCell() }}
+The example found on readme.md
+</div>
+</div> 
+</a>                   
 
 
 
