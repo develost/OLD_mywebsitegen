@@ -58,7 +58,7 @@
         <page id="tython">
             <title>Tython</title>
             <subtitle></subtitle>
-            <order>-11</order>            
+            <order>11</order>            
             <author>me</author>
             <link>tython</link>
             <home>False</home>
@@ -70,7 +70,7 @@
         <page id="websu">
             <title>Websu</title>
             <subtitle></subtitle>
-            <order>-11</order>            
+            <order>12</order>            
             <author>me</author>
             <link>websu</link>
             <home>False</home>
@@ -79,5 +79,17 @@
             <template>genericTemplate.html</template>
             <createdOn>20150401000000</createdOn>
         </page>
+        <page id="develost-apps">
+            <title>develost apps</title>
+            <subtitle></subtitle>
+            <order>-1</order>            
+            <author>me</author>
+            <link>apps</link>
+            <home>False</home>
+            <resource>../apps</resource>
+            <resourceType>external</resourceType>
+            <template>genericTemplate.html</template>
+            <createdOn>20150401000000</createdOn>
+        </page>        
     </pages>
 </site>
