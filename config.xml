@@ -90,6 +90,18 @@
             <resourceType>external</resourceType>
             <template>genericTemplate.html</template>
             <createdOn>20150401000000</createdOn>
+        </page>
+        <page id="error404">
+            <title>This is Error 404</title>
+            <subtitle>This is Error 404 page</subtitle>
+            <order>-404</order>            
+            <author>me</author>
+            <link>Error 404</link>
+            <home>False</home>
+            <resource>error404.md</resource>
+            <resourceType>internal</resourceType>
+            <template>genericTemplate.html</template>
+            <createdOn>20150401000000</createdOn>
         </page>        
     </pages>
 </site>
