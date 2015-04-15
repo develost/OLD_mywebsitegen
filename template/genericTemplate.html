@@ -8,13 +8,26 @@
     </head>
     <body>
         <div class="main">
-            {{ website.baseUrl }}
-            <div class="flow">
-                <div class="flow-header all-size menu-container">
-                    <!-- <a href="https://github.com/develost"><img style="position: absolute; top: 0; left: 0; border: 0;" src="./img/forkmeongithub.png" alt="Fork me on GitHub"></a> -->
-                    <ul class="right">
-                        <li><a href="{{ website.baseUrl }}"><span><img src="./img/50x50.jpg" height="50px"></span></a></li>
+            <div class="fixed-header xlarge-size xxlarge-size menu-container">
+                    <ul class="left">
+                        <li><a href="{{ website.baseUrl }}"><span></span></a></li>
                     </ul>              
+                    <ul class="right">
+                        <li><a href="{{ website.getPageById('dlMetro').link }}"><span>dlMetro</span></a></li>
+                        <li><a href="{{ website.getPageById('tython').link }}"><span>tython</span></a></li>
+                        <li><a href="{{ website.getPageById('websu').link }}"><span>websu</span></a></li>
+                    </ul>
+            </div>        
+            <div class="flow">
+                <div class="flow-header fallback-size min-size mid-size large-size menu-container">
+                    <ul class="left">
+                        <li><a href="{{ website.baseUrl }}"><span></span></a></li>
+                    </ul>              
+                    <ul class="right">
+                        <li><a href="{{ website.getPageById('dlMetro').link }}"><span>dlMetro</span></a></li>
+                        <li><a href="{{ website.getPageById('tython').link }}"><span>tython</span></a></li>
+                        <li><a href="{{ website.getPageById('websu').link }}"><span>websu</span></a></li>
+                    </ul>
                 </div>
                 <div class="content all-size">
                     <div class="inner-content">
