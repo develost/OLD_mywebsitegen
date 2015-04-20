@@ -79,6 +79,18 @@
             <template>genericTemplate.html</template>
             <createdOn>20150401000000</createdOn>
         </page>
+        <page id="github-websu">
+            <title>gitHub websu</title>
+            <subtitle></subtitle>
+            <order>-1</order>            
+            <author>me</author>
+            <link>https://github.com/develost/websu</link>
+            <home>False</home>
+            <resource>https://github.com/develost/websu</resource>
+            <resourceType>external</resourceType>
+            <template>genericTemplate.html</template>
+            <createdOn>20150401000000</createdOn>
+        </page>         
         <!--<page id="develost-apps">
             <title>develost apps</title>
             <subtitle></subtitle>
