@@ -27,10 +27,12 @@ Soon on github
 {{ website.endCell() }}
 {{ website.endLink() }}
 
+{{ website.link('websu','') }}
 {{ website.cell('222662','') }}
 #websu
 Just an easy way to update the content of a website
 {{ website.endCell() }}
+{{ website.endLink() }}
 
 {{ website.cell('6','',) }}
 This website is made with dlMetro and tython
