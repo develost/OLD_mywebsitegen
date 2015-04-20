@@ -79,7 +79,7 @@
             <template>genericTemplate.html</template>
             <createdOn>20150401000000</createdOn>
         </page>
-        <page id="develost-apps">
+        <!--<page id="develost-apps">
             <title>develost apps</title>
             <subtitle></subtitle>
             <order>-1</order>            
@@ -90,7 +90,7 @@
             <resourceType>external</resourceType>
             <template>genericTemplate.html</template>
             <createdOn>20150401000000</createdOn>
-        </page>
+        </page>-->
         <page id="error404">
             <title>This is Error 404</title>
             <subtitle>This is Error 404 page</subtitle>

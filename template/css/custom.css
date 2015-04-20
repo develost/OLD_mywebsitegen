@@ -1,4 +1,4 @@
-/*.debug{display:none;}*/ /* decomment in production environment */
+/*.debug{display:none;} *//* decomment in production environment */
 
 * {margin: 0; padding: 0;}
 a {text-decoration:none;color: #000000;}
@@ -32,11 +32,15 @@ body{overflow:scroll-x;margin: 0;padding: 0;border: 0;height:100%;width:100%;fon
 .credits-container > p {text-align:center;padding-top:17px;}
 .last{padding-bottom:15px;}
 
+@keyframes slidy5        {0% { left: 0%; } 20% { left: -100%; } 40% { left: -200%; } 60% { left: -300%; } 80% { left: -400%; } 100% { left: 0%; }}
+@-webkit-keyframes slidy5        {0% { left: 0%; } 20% { left: -100%; } 40% { left: -200%; } 60% { left: -300%; } 80% { left: -400%; } 100% { left: 0%; }}
+/*
 @keyframes slidy         {0% { left: 0%; } 20% { left: 0%; } 25% { left: -100%; } 45% { left: -100%; } 50% { left: -200%; } 70% { left: -200%; } 75% { left: -300%; } 95% { left: -300%; } 100% { left: -400%; }}
 @-webkit-keyframes slidy {0% { left: 0%; } 20% { left: 0%; } 25% { left: -100%; } 45% { left: -100%; } 50% { left: -200%; } 70% { left: -200%; } 75% { left: -300%; } 95% { left: -300%; } 100% { left: -400%; }}
+*/
 div#slider { overflow: hidden; }
 div#slider figure img { width: 20%; float: left; }
-div#slider figure { position: relative;  width: 500%;  margin: 0;  left: 0;  text-align: left;  font-size: 0;  -webkit-animation: 10s slidy infinite; animation: 10s slidy infinite; }
+div#slider figure { position: relative;  width: 500%;  margin: 0;  left: 0;  text-align: left;  font-size: 0;  -webkit-animation: 10s slidy5 infinite; animation: 10s slidy5 infinite; }
 
 /*div.made-with{background: url('../img/gear-27114_640.png') no-repeat right bottom;}*/
 div.made-with{background:#FFFFFF;}

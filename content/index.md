@@ -1,8 +1,8 @@
-{{ website.cell('6','home') }}
+{{ website.cell('6','') }}
 Under development
 {{ website.endCell() }}
 
-{{ website.cell('222662','dlMetro') }}
+{{ website.cell('222662','') }}
 #dlMetro
 The goal of dlMetro is to dress a site with an interface like Windows 8 Metro UI.
 Two files make the solution:
@@ -13,7 +13,8 @@ Two files make the solution:
 No external dependency is required.
 {{ website.endCell() }}
 
-{{ website.cell('222662','tython') }}
+{{ website.link('tython','') }}
+{{ website.cell('222662','') }}
 #tython
 
 A Template engine written in python.
@@ -24,12 +25,13 @@ Usage is free but *registration* is needed.
                 
 Soon on github
 {{ website.endCell() }}
+{{ website.endLink() }}
 
-{{ website.cell('222662','websu') }}
+{{ website.cell('222662','') }}
 #websu
 Just an easy way to update the content of a website
 {{ website.endCell() }}
 
-{{ website.cell('6','home','last') }}
+{{ website.cell('6','',) }}
 This website is made with dlMetro and tython
 {{ website.endCell() }}
