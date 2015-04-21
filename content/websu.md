@@ -18,13 +18,13 @@ How can i update my website easily minimizing offline time?
 {{ website.endCell() }}
 
 
-{{ website.cell('3','') }}
+{{ website.cell('333663','') }}
 # Main page
 ![websu main page](https://github.com/develost/websu/raw/master/websu_main_page.jpg "websu main page")
 {{ website.endCell() }}
 
 
-{{ website.cell('3','') }}
+{{ website.cell('333663','') }}
 # Report page
 ![websu file page](https://github.com/develost/websu/raw/master/websu_file_page.jpg "websu file page")
 {{ website.endCell() }}
