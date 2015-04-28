@@ -23,8 +23,6 @@ A Template engine written in python.
 
 Makes you capable to use vanilla python code in page genaration and markdown formatting for the content.
 
-##test
-
 Usage is free but *registration* is needed.
                 
 Soon on github
@@ -53,11 +51,11 @@ Soon on GitHub
 
 <div class="slider5">
 <figure>
-<a href="test1"><img src="img/00_readme.png" alt data-caption="dlMetro readme"></a>
-<a href="test2"><img src="img/01_basic.png" alt data-caption="dlMetro basic" ></a>
-<a href="test3"><img src="img/02_fixed_flow_header.png" alt data-caption="dlMetro flow header"></a>
-<a href="test4"><img src="img/03_custom_cell.png" alt data-caption="dlMetro custom cell"></a>
-<a href="test5"><img src="img/04_fixed_footer.png" alt data-caption="dlMetro footer"></a>
+{{ website.link('dlMetro-examples','/00_readme.html')}}<img src="img/00_readme.png" alt data-caption="dlMetro readme">{{ website.endLink() }}
+{{ website.link('dlMetro-examples','/01_basic.html')}}<img src="img/01_basic.png" alt data-caption="dlMetro basic" >{{ website.endLink() }}
+{{ website.link('dlMetro-examples','/02_fixed_flow_header.html')}}<img src="img/02_fixed_flow_header.png" alt data-caption="dlMetro flow header">{{ website.endLink() }}
+{{ website.link('dlMetro-examples','/03_custom_cell.html')}}<img src="img/03_custom_cell.png" alt data-caption="dlMetro custom cell">{{ website.endLink() }}
+{{ website.link('dlMetro-examples','/04_fixed_footer.html')}}<img src="img/04_fixed_footer.png" alt data-caption="dlMetro footer">{{ website.endLink() }}
 </figure>
 </div>
 
