@@ -1,7 +1,7 @@
 {{ website.cell('6','') }}
 How can i update my website easily minimizing offline time?
 
-## **Websu** is designed specifically for this:
+### **Websu** is designed specifically for this:
 
  - it prepares a fresh copy of your website
  - and switches to the new version only when the copy of all the files is done
@@ -10,11 +10,12 @@ How can i update my website easily minimizing offline time?
 {{ website.endCell() }}
 
 {{ website.cell('6','') }}
-## Some capabilities
+### Some capabilities
  - autoupdate: only few clicks and get last version
  - update webite only in case of new version available
  - user/password protection
  - shows nicely on mobile
+ - encrypt/decrypt files with blowfish cipher
 {{ website.endCell() }}
 
 
