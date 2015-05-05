@@ -91,6 +91,18 @@
             <template>genericTemplate.html</template>
             <createdOn>20150401000000</createdOn>
         </page>
+        <page id="websu-params">
+            <title>Websu parameters</title>
+            <subtitle></subtitle>
+            <order>12</order>            
+            <author>me</author>
+            <link>websu-parameters</link>
+            <home>False</home>
+            <resource>websu-params.md</resource>
+            <resourceType>internal</resourceType>
+            <template>genericTemplate.html</template>
+            <createdOn>20150401000000</createdOn>
+        </page>
         <page id="github-websu">
             <title>gitHub websu</title>
             <subtitle></subtitle>
@@ -103,18 +115,6 @@
             <template>genericTemplate.html</template>
             <createdOn>20150401000000</createdOn>
         </page>         
-        <!--<page id="develost-apps">
-            <title>develost apps</title>
-            <subtitle></subtitle>
-            <order>-1</order>            
-            <author>me</author>
-            <link>apps</link>
-            <home>False</home>
-            <resource>../apps</resource>
-            <resourceType>external</resourceType>
-            <template>genericTemplate.html</template>
-            <createdOn>20150401000000</createdOn>
-        </page>-->
         <page id="error404">
             <title>This is Error 404</title>
             <subtitle>This is Error 404 page</subtitle>
