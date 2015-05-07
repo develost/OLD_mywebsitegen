@@ -32,7 +32,7 @@ strong {font-weight:bold;}
 .cell ol li{display:list-item;margin-left:1em;list-style-type: decimal;}
 .cell li{display:list-item;margin-left:1em;}
 .cell p{margin-top:5px;margin-bottom:5px;}
-
+.cell td{padding:10px;}
 .credits-container{background:#222222;color: #FFFFFF;}
 .credits-container > p {text-align:center;padding-top:17px;padding-bottom:17px;}
 .credits-container > p  > a{padding-left:5px;padding-right:5px;color:#FFFFFF;}
@@ -43,11 +43,15 @@ pre.code-block {
     font-family: Consolas,monospace;
     background-color: #FFFFFF;
     padding:0px;
+    margin-top:10px;
+    margin-bottom:10px;
+    overflow-x:scroll;
 }
 pre.code-block span{
 	counter-increment: linecounter;
-    border-bottom: 1px solid #B0B0B0 ;
+    /*border-bottom: 1px solid #B0B0B0 ;*/
     display: block;
+    /*width:auto;*/
     line-height:30px;
 }
 pre.code-block span:before{
@@ -74,6 +78,8 @@ div.slider5 figure { position: relative;  width: 500%;  margin: 0;  left: 0;  te
 div.made-with{background:#FFFFFF;}
 
 .color-red{color: red;}
+
+
 
 /* fallback */
     .fixed-header   {height:0px;}
