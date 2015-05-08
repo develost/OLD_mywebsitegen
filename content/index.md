@@ -1,7 +1,3 @@
-{{ website.cell('6','') }}
-Under development
-{{ website.endCell() }}
-
 {{ website.link('dlMetro','') }}
 {{ website.cell('222662','') }}
 #dlMetro
@@ -32,7 +28,15 @@ Soon on github
 {{ website.link('websu','') }}
 {{ website.cell('222662','') }}
 #websu
-Just an easy way to update the content of a website
+Manage easily the process of updating of your website.
+
+- user password protection
+- works under apache httpd through http/https
+- capable to encode sensible files using blowfish cipher
+- keeps historical versions
+- minimize offline time by switching rewrite rules only at the end of an update
+- support both static and dynamic web sites
+
 {{ website.endCell() }}
 {{ website.endLink() }}
 
@@ -61,6 +65,22 @@ Soon on GitHub
 
 {{ website.endCell() }}
 
-{{ website.cell('6','last',) }}
-This website is made with dlMetro and tython
+{{ website.cell('333663','') }}
+#About
+We are a small group of people using open space technology as the approach to design and build better useful software.
+<br>
+What is **Open Space Technology**?
+
+- [is an approach to purpose-driven leadership... more on wikipedia](http://en.wikipedia.org/wiki/Open_Space_Technology)
+- [is a simple way to run productive meetings... more on openspaceworld.org](http://openspaceworld.org/) 
+
+{{ website.endCell() }}
+
+
+{{ website.cell('333663','last',) }}
+We use the software we build:
+
+- **dlMetro** for styling our website
+- **websu** for updating our website
+- **tython** as CMS
 {{ website.endCell() }}
