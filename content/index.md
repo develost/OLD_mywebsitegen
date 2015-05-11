@@ -71,8 +71,10 @@ We are a small group of people using open space technology as the approach to de
 <br>
 What is **Open Space Technology**?
 
-- is an approach to purpose-driven leadership [\(more\)](http://en.wikipedia.org/wiki/Open_Space_Technology)
-- is a simple way to run productive meetings  [\(more\)](http://openspaceworld.org/)
+- is an approach to purpose-driven leadership [more](http://en.wikipedia.org/wiki/Open_Space_Technology)
+- is a simple way to run productive meetings  [more](http://openspaceworld.org/)
+
+&nbsp;
 {{ website.endCell() }}
 
 
@@ -82,4 +84,6 @@ We use the software we build:
 - **dlMetro** for styling our website
 - **websu** for updating our website
 - **tython** as CMS
+
+&nbsp;
 {{ website.endCell() }}
