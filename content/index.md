@@ -15,13 +15,13 @@ No external dependency is required.
 {{ website.cell('222662','') }}
 #tython
 
-A Template engine written in python.
+### A Template engine written in python.
 
-Makes you capable to use vanilla python code in page genaration and markdown formatting for the content.
+- Makes you capable to use vanilla **python code in page** genaration and markdown formatting for the content.
+- Usage is free but registration is needed. Yust put your (vaild) email into the registration form.
 
-Usage is free but *registration* is needed.
+Now on git hub, download the zip and follow the readme to start.
                 
-Soon on github
 {{ website.endCell() }}
 {{ website.endLink() }}
 
