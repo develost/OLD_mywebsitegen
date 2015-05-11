@@ -28,14 +28,14 @@ How can i update my website easily minimizing offline time?
 {{ website.endCell() }}
 
 {{ website.link('github-websu','')}}
-{{ website.cell('333663','') }}
+{{ website.cell('222662','') }}
 # How to get it
 Check and download last version on GitHub
 ### Last version is **0.1.0**
 {{ website.endCell() }}
 {{ website.endLink() }}
 
-{{ website.cell('333663','last') }}
+{{ website.cell('444664','last') }}
 # Getting started
  1. zip your website and put somewhere, can be a dropbox link or whatever
  1. prepare parameters.php file following [this tutorial]({{ website.getPageById('websu-params').link }})

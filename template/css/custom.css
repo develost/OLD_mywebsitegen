@@ -21,9 +21,11 @@ strong {font-weight:bold;}
 .menu-container > ul.right > li > a:hover {color: #19A347;}
 .menu-container > ul.right > li > a > span{height:50px;width:50px;}
 .menu-container > ul.right > li > span > span{height:50px;width:50px;}
-.content{padding:0px;/*background: url('../img/stripes.jpg') repeat;*/background: #19A347;}
+/*.content{padding:0px;background: #19A347;}*/
+.content{padding:0px;background: url('../img/bg.png');background-repeat:no-repeat;background-attachment:fixed;background-size:cover;}
 .inner-content{padding-left:15px;padding-right:15px;padding-top:15px;}
 .cell{background: #EEEEEE;padding:10px;margin:15px;}
+a .cell:hover{background: #19A347;color:#FFFFFF;}
 .cell > h1{background:#222222;padding:10px;text-align:center;margin-bottom:10px;color: #FFFFFF;margin-top:-10px;margin-left:-10px;margin-right:-10px;}
 .cell > h2{background:#555555;}
 
@@ -33,6 +35,7 @@ strong {font-weight:bold;}
 .cell li{display:list-item;margin-left:1em;}
 .cell p{margin-top:5px;margin-bottom:5px;}
 .cell td{padding:10px;}
+.cell a{border-bottom: 2px solid #19A347;}
 .credits-container{background:#222222;color: #FFFFFF;}
 .credits-container > p {text-align:center;padding-top:17px;padding-bottom:17px;}
 .credits-container > p  > a{padding-left:5px;padding-right:5px;color:#FFFFFF;}

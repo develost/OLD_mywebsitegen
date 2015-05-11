@@ -71,9 +71,8 @@ We are a small group of people using open space technology as the approach to de
 <br>
 What is **Open Space Technology**?
 
-- [is an approach to purpose-driven leadership... more on wikipedia](http://en.wikipedia.org/wiki/Open_Space_Technology)
-- [is a simple way to run productive meetings... more on openspaceworld.org](http://openspaceworld.org/) 
-
+- is an approach to purpose-driven leadership [\(more\)](http://en.wikipedia.org/wiki/Open_Space_Technology)
+- is a simple way to run productive meetings  [\(more\)](http://openspaceworld.org/)
 {{ website.endCell() }}
 
 
