@@ -9,7 +9,7 @@ If you follow us at [@develost_com](https://twitter.com/develost_com) and retwee
 {{ website.endCell() }}
 {{ website.cell('6','last') }}
 #Important
-After aplying to the visibility program
+After applying to the visibility program
 send us an email to [info@develost.com](mailto:info@develost.com) with:
 
 - visibility program as subject
