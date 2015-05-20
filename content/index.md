@@ -54,13 +54,14 @@ Manage easily the process of updating of your website.
 {{ website.endLink() }}
 
 
-{{ website.link('websu','') }}
+{{ website.link('surfway','') }}
 {{ website.cell('222662','') }}
 #surfway
 
 From a db to a complete web application passig from an XML.
+Now on github
 
-Soon on GitHub
+
 {{ website.endCell() }}
 {{ website.endLink() }}
 

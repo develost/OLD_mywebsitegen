@@ -42,7 +42,19 @@
             <resourceType>internal</resourceType>
             <template>genericTemplate.html</template>
             <createdOn>20150519000000</createdOn>
-        </page>        
+        </page>
+        <page id="github-surfway">
+            <title>gitHub surfway</title>
+            <subtitle></subtitle>
+            <order>-1</order>            
+            <author>me</author>
+            <link>https://github.com/develost/surfway</link>
+            <home>False</home>
+            <resource>https://github.com/develost/surfway</resource>
+            <resourceType>external</resourceType>
+            <template>genericTemplate.html</template>
+            <createdOn>20150519000000</createdOn>
+        </page>
         <page id="dlMetro-examples">
             <title>dlMetro examples</title>
             <subtitle></subtitle>
