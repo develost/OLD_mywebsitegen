@@ -7,7 +7,7 @@ Is a static CMS with the following features:
 - can use multiple templates
 - a template is an html page, you can open it in a browser
 - produces rewrite rules: seo friendly
-- can build rules for externale resources
+- can build rules for external resources
 - has custom functions for dlMetro
 - uses an XML for the cunfiguration
 - handle Error 404 page \(and other errors\)
@@ -38,11 +38,24 @@ Now your are ready to build your own website
 {{ website.endCell() }}
 
 {{ website.cell('3','') }}
-#Coming soon: 
-configuration how to
+#Suggested directory structure
+
+- a folder named content (where to put markdown files)
+- a folder named template (where to put html templates for your pages)
+- config.xml (an empty file for now)
+- generate.bat (or .sh this file will trigger website generation)
+ 
+
 {{ website.endCell() }}
 
 {{ website.cell('3','last') }}
 #Coming soon: 
-commands available
+
+- commands available
+- setup config.xml
+
+## This website is made with tython
+
+Browse this repository on [github](https://github.com/develost/_mywebsitegen) to see how.
+
 {{ website.endCell() }}
