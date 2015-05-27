@@ -81,10 +81,11 @@ Now on github
 
 {{ website.cell('333663','') }}
 #About
-We are a small group of people using open space technology as the approach to design and build better useful software.
+**develost.com** is one-man band. <br>
 <br>
-What is **Open Space Technology**?
+What is Open Space Technology?
 
+- is the approach I use to design and build better useful software
 - is an approach to purpose-driven leadership [more](http://en.wikipedia.org/wiki/Open_Space_Technology)
 - is a simple way to run productive meetings  [more](http://openspaceworld.org/)
 
@@ -93,10 +94,11 @@ What is **Open Space Technology**?
 
 
 {{ website.cell('333663','last',) }}
-We use the software we build:
+I use the software I realize:
 
-- **dlMetro** for styling our website
-- **websu** for updating our website
+- **dlMetro** for styling the website
+- **websu** for updating the website
+- **surfway** for some small projects
 - **tython** as CMS
 
 &nbsp;
