@@ -1,0 +1,12 @@
+[
+    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/29_gist_psql_chown_multiple.jpg","url":"https://gist.github.com/develost/0be159559e5e0667ba44#file-bulk_chown_tables_postgresql_pgscript-sql","text":"Bulk change table owner in multiple schema postgresql","author":"@develost_com"},
+    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/29_custom_css_surfway.jpg","url":"http://www.develost.com/surfway","text":"Xml generated webapp and your custom css in surfway !","author":"@develost_com"},
+    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/28_surfway_gantt.jpg","url":"http://www.develost.com/surfway","text":"Have you tried gantt visualization in surfway?","author":"@develost_com"},
+    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/26_pgbytea2file.jpg","url":"https://gist.github.com/develost/a7630158e2c0de74cb66#file-pgbytea2file-py","text":"Extract from postgres bytea field and store data in a binary file","author":"@develost_com"},
+    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/25_tython_xsd.jpg","url":"http://www.develost.com/tython","text":"tython xsd v 1.0 released! Check your config.xml before generating","author":"@develost_com"},
+    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/20_surfway_3examples.jpg","url":"http://www.develost.com/surfway","text":"1 webapp can be done in minutes using surfway","author":"@develost_com"},
+    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/15_noscrollbar_dlmetro.jpg","url":"http://www.develost.com/dlMetro","text":"remove any scrollbar, keep page scroll, already done in dlMetro","author":"@develost_com"},
+    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/07_openlayers_dlMetro.jpg","url":"http://www.develost.com/dlMetro","text":"openlayers and dlMetro easy to embed maps into a metroui","author":"@develost_com"},
+    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/05/05_websu_release_0.1.0.jpg","url":"http://www.example.org","text":"websu released: update your website easily, support cryptography","author":"@develost_com"},
+    {"src":"https://raw.githubusercontent.com/develost/news/master/2015/04/27_dlMetro-release-1.0.jpg","url":"http://www.develost.com/dlMetro","text":"First version of dlMetro released","author":"@develost_com"}
+]

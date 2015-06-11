@@ -66,18 +66,30 @@ Now on github
 {{ website.endLink() }}
 
 {{ website.cell('444664','') }}
+#dlCarousel
+dynamic + infinite loop post carousel for facebook and twitter (in development)
 
-<div class="slider5">
-<figure>
-{{ website.link('dlMetro-examples','/00_readme.html')}}<img src="img/00_readme.png" alt data-caption="dlMetro readme">{{ website.endLink() }}
-{{ website.link('dlMetro-examples','/01_basic.html')}}<img src="img/01_basic.png" alt data-caption="dlMetro basic" >{{ website.endLink() }}
-{{ website.link('dlMetro-examples','/02_fixed_flow_header.html')}}<img src="img/02_fixed_flow_header.png" alt data-caption="dlMetro flow header">{{ website.endLink() }}
-{{ website.link('dlMetro-examples','/03_custom_cell.html')}}<img src="img/03_custom_cell.png" alt data-caption="dlMetro custom cell">{{ website.endLink() }}
-{{ website.link('dlMetro-examples','/04_fixed_footer.html')}}<img src="img/04_fixed_footer.png" alt data-caption="dlMetro footer">{{ website.endLink() }}
-</figure>
-</div>
+
+
 
 {{ website.endCell() }}
+
+{{ website.cell('6','') }}
+<div id="mainCarousel"></div>
+<script src="./js/http.js"></script>
+<script src="./js/dlCarousel.js"></script>
+<script>
+    dlCarousel.setCarouselNumItems(3);
+    dlCarousel.build("mainCarousel");
+    dlCarousel.setCarouselUrl("/dlCarousel/core/php/jsonPosts.php");
+    dlCarousel.start();
+    dlCarousel.setCarouselTimeout(10000);
+    // slider left
+    dlCarousel.setCssAnimation("magictime slideRightRetourn","fg");
+    dlCarousel.setCssAnimation("magictime slideLeft","bg");
+</script>
+{{ website.endCell() }}
+
 
 {{ website.cell('333663','') }}
 #About
