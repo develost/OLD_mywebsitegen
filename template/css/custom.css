@@ -41,6 +41,8 @@ a .cell:hover{background: #19A347;color:#FFFFFF;}
 .credits-container > p {text-align:center;padding-top:17px;padding-bottom:17px;}
 .credits-container > p  > a{padding-left:5px;padding-right:5px;color:#FFFFFF;}
 .last{padding-bottom:15px;}
+#mainCarousel{height:300px;}
+.cell #mainCarousel{margin:-10px;}
 
 pre.code-block {
 	counter-reset: linecounter;
@@ -126,6 +128,7 @@ div.made-with{background:#FFFFFF;}
     .flow-header     {height:0px;}
     .flow-footer     {height:auto;}
     .fixed-footer   {height:0px;}
+    #mainCarousel{height:500px;}
 }
 
 /* xxlarge */
@@ -135,6 +138,7 @@ div.made-with{background:#FFFFFF;}
     .flow-header     {height:0px;}
     .flow-footer     {height:auto;}
     .fixed-footer   {height:0px;}
+    #mainCarousel{height:500px;}
 }
 
 

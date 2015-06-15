@@ -81,13 +81,16 @@ dynamic + infinite loop post carousel for facebook and twitter (in development)
 <script>
     dlCarousel.setCarouselNumItems(3);
     dlCarousel.build("mainCarousel");
-    dlCarousel.setCarouselUrl("/dlCarousel/core/php/jsonPosts.php");
-    dlCarousel.start();
-    dlCarousel.setCarouselTimeout(10000);
-    // slider left
+    dlCarousel.setCarouselUrl("twitterPosts.php?s=at&v=develost_com");
     dlCarousel.setCssAnimation("magictime slideRightRetourn","fg");
     dlCarousel.setCssAnimation("magictime slideLeft","bg");
+    dlCarousel.setCarouselTimeout(10000);
+    dlCarousel.start();
+    // slider left
 </script>
+Test dlCarousel by yourself mentioning @develost_com in a tweet with image. 
+Your tweet will appear here after a while, without refreshing the page.
+(tweet without images will not be shown)
 {{ website.endCell() }}
 
 
