@@ -1,5 +1,5 @@
 {{ website.link('visibility-program','')}}
-{{ website.cell('6','') }}
+{{ website.cell('333663','') }}
 #Visibility program: 
 
 Retweet our tweets and follow us on twitter for accessing:
@@ -10,6 +10,31 @@ Retweet our tweets and follow us on twitter for accessing:
 See more details here
 {{ website.endCell() }}
 {{ website.endLink() }}
+
+{{ website.cell('333663','') }}
+#About
+**develost.com** is one-man band. <br>
+<br>
+What is Open Space Technology?
+
+- is the approach I use to design and build better useful software
+- is an approach to purpose-driven leadership [more](http://en.wikipedia.org/wiki/Open_Space_Technology)
+- is a simple way to run productive meetings  [more](http://openspaceworld.org/)
+
+<br><br>
+
+I'm a php/python developer and I use the my software:
+
+- **dlMetro** for styling the website
+- **websu** for updating the website
+- **surfway** for some small projects
+- **tython** as CMS
+- **dlCarousel** for the twitter post carousel into this website
+
+{{ website.endCell() }}
+
+
+
 
 {{ website.link('dlMetro','') }}
 {{ website.cell('222662','') }}
@@ -74,7 +99,7 @@ dynamic + infinite loop post carousel for facebook and twitter (in development)
 
 {{ website.endCell() }}
 
-{{ website.cell('6','') }}
+{{ website.cell('6','last') }}
 <div id="mainCarousel"></div>
 <script src="./js/http.js"></script>
 <script src="./js/dlCarousel.js"></script>
@@ -94,27 +119,6 @@ Your tweet will appear here after a while, without refreshing the page.
 {{ website.endCell() }}
 
 
-{{ website.cell('333663','') }}
-#About
-**develost.com** is one-man band. <br>
-<br>
-What is Open Space Technology?
-
-- is the approach I use to design and build better useful software
-- is an approach to purpose-driven leadership [more](http://en.wikipedia.org/wiki/Open_Space_Technology)
-- is a simple way to run productive meetings  [more](http://openspaceworld.org/)
-
-&nbsp;
-{{ website.endCell() }}
 
 
-{{ website.cell('333663','last',) }}
-I use the software I realize:
 
-- **dlMetro** for styling the website
-- **websu** for updating the website
-- **surfway** for some small projects
-- **tython** as CMS
-
-&nbsp;
-{{ website.endCell() }}
