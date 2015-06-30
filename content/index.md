@@ -23,7 +23,7 @@ What is Open Space Technology?
 
 <br><br>
 
-I'm a php/python developer and I use the my software:
+I'm a php/python developer and I use my software:
 
 - **dlMetro** for styling the website
 - **websu** for updating the website
