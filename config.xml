@@ -78,6 +78,18 @@
             <resourceType>external</resourceType>
             <template>genericTemplate.html</template>
             <createdOn>20150519000000</createdOn>
+        </page>
+        <page id="keyframes-animation-studio-demo">
+            <title>keyframes-animation-studio-demo</title>
+            <subtitle></subtitle>
+            <order>-1</order>            
+            <author>me</author>
+            <link>keyframes-animation-studio-demo</link>
+            <home>False</home>
+            <resource>examples/keyframes-animation-studio-demo</resource>
+            <resourceType>external</resourceType>
+            <template>genericTemplate.html</template>
+            <createdOn>20150519000000</createdOn>
         </page>        
         <page id="tython">
             <title>Tython</title>
