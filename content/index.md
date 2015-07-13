@@ -1,37 +1,42 @@
-{{ website.link('visibility-program','')}}
-{{ website.cell('333663','') }}
-#Visibility program: 
-
-Retweet our tweets and follow us on twitter for accessing:
-
- - tython (full access, no demo)
- - surfway (credits to build webapps from an xml)
-
-See more details here
-{{ website.endCell() }}
-{{ website.endLink() }}
-
-{{ website.cell('333663','') }}
+{{ website.cell('6','') }}
 #About
-**develost.com** is one-man band. <br>
-<br>
+**develost.com** is one-man band. 
+
+Open Space Technology is the approach I use to design and build better useful software. 
+
+Php / python developer.
+<br><br>
+
+Purposes of my software:
+
+- **dlMetro**: dress a website with liquid layout.
+- **websu**: forget ftp updates and welcome dropbox/github/web publishing.
+- **surfway**: generate A CRUD web application starting from an XML.
+- **tython**: CMS capable to run python code.
+- **dlCarousel**: the n-th dynamic carousel for posts, but this is mine.
+- **KeyframesAnimationStudio**: creation of custom CSS3 Keyframes animation via web.
+<br><br>
+
 What is Open Space Technology?
 
 - is the approach I use to design and build better useful software
 - is an approach to purpose-driven leadership [more](http://en.wikipedia.org/wiki/Open_Space_Technology)
 - is a simple way to run productive meetings  [more](http://openspaceworld.org/)
 
-<br><br>
 
-I'm a php/python developer and I use my software:
-
-- **dlMetro** for styling the website
-- **websu** for updating the website
-- **surfway** for some small projects
-- **tython** as CMS
-- **dlCarousel** for the twitter post carousel into this website
 
 {{ website.endCell() }}
+
+
+{{ website.link('keyframesanimationstudio','') }}
+{{ website.cell('222662','') }}
+#KeyframesAnimationStudio
+
+Forget manually writing complex CSS3 codes for your custom keyframes animation. Focus on final result and use our web application. For free. 1 click to export/import to file (in development)
+
+{{ website.endCell() }}
+{{ website.endLink() }}
+
 
 
 
@@ -90,14 +95,15 @@ Now on github
 {{ website.endCell() }}
 {{ website.endLink() }}
 
-{{ website.cell('444664','') }}
+{{ website.cell('222662','') }}
 #dlCarousel
 dynamic + infinite loop post carousel for facebook and twitter (in development)
 
-
-
-
 {{ website.endCell() }}
+
+
+
+
 
 {{ website.cell('6','last') }}
 <div id="mainCarousel"></div>

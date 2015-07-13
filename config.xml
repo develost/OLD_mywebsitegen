@@ -17,7 +17,7 @@
             <resource>index.md</resource>
             <resourceType>internal</resourceType>
             <template>genericTemplate.html</template>
-            <createdOn>20150519000000</createdOn>
+            <createdOn>20150714000000</createdOn>
         </page>
         <page id="dlMetro">
             <title>dlMetro</title>
@@ -29,7 +29,7 @@
             <resource>dlMetro.md</resource>
             <resourceType>internal</resourceType>
             <template>genericTemplate.html</template>
-            <createdOn>20150519000000</createdOn>
+            <createdOn>20150714000000</createdOn>
         </page>
         <page id="surfway">
             <title>surfway</title>
@@ -41,7 +41,7 @@
             <resource>surfway.md</resource>
             <resourceType>internal</resourceType>
             <template>genericTemplate.html</template>
-            <createdOn>20150519000000</createdOn>
+            <createdOn>20150714000000</createdOn>
         </page>
         <page id="github-surfway">
             <title>gitHub surfway</title>
@@ -53,7 +53,7 @@
             <resource>https://github.com/develost/surfway</resource>
             <resourceType>external</resourceType>
             <template>genericTemplate.html</template>
-            <createdOn>20150519000000</createdOn>
+            <createdOn>20150714000000</createdOn>
         </page>
         <page id="dlMetro-examples">
             <title>dlMetro examples</title>
@@ -65,7 +65,7 @@
             <resource>examples/dlMetro-examples</resource>
             <resourceType>external</resourceType>
             <template>genericTemplate.html</template>
-            <createdOn>20150519000000</createdOn>
+            <createdOn>20150714000000</createdOn>
         </page>
         <page id="dlMetro-core">
             <title>dlMetro core</title>
@@ -77,7 +77,7 @@
             <resource>examples/core</resource>
             <resourceType>external</resourceType>
             <template>genericTemplate.html</template>
-            <createdOn>20150519000000</createdOn>
+            <createdOn>20150714000000</createdOn>
         </page>
         <page id="keyframes-animation-studio-demo">
             <title>keyframes-animation-studio-demo</title>
@@ -89,7 +89,7 @@
             <resource>examples/keyframes-animation-studio-demo</resource>
             <resourceType>external</resourceType>
             <template>genericTemplate.html</template>
-            <createdOn>20150519000000</createdOn>
+            <createdOn>20150714000000</createdOn>
         </page>        
         <page id="tython">
             <title>Tython</title>
@@ -101,7 +101,7 @@
             <resource>tython.md</resource>
             <resourceType>internal</resourceType>
             <template>genericTemplate.html</template>
-            <createdOn>20150519000000</createdOn>
+            <createdOn>20150714000000</createdOn>
         </page>
         <page id="visibility-program">
             <title>Visibility program</title>
@@ -113,7 +113,7 @@
             <resource>visibility-program.md</resource>
             <resourceType>internal</resourceType>
             <template>genericTemplate.html</template>
-            <createdOn>20150519000000</createdOn>
+            <createdOn>20150714000000</createdOn>
         </page>        
         <page id="websu">
             <title>Websu</title>
@@ -125,7 +125,19 @@
             <resource>websu.md</resource>
             <resourceType>internal</resourceType>
             <template>genericTemplate.html</template>
-            <createdOn>20150519000000</createdOn>
+            <createdOn>20150714000000</createdOn>
+        </page>
+        <page id="keyframesanimationstudio">
+            <title>keyframesanimationstudio</title>
+            <subtitle></subtitle>
+            <order>15</order>            
+            <author>me</author>
+            <link>keyframesanimationstudio</link>
+            <home>False</home>
+            <resource>keyframesanimationstudio.md</resource>
+            <resourceType>internal</resourceType>
+            <template>genericTemplate.html</template>
+            <createdOn>20150714000000</createdOn>
         </page>
         <page id="websu-params">
             <title>Websu parameters</title>
@@ -137,7 +149,7 @@
             <resource>websu-params.md</resource>
             <resourceType>internal</resourceType>
             <template>genericTemplate.html</template>
-            <createdOn>20150519000000</createdOn>
+            <createdOn>20150714000000</createdOn>
         </page>
         <page id="github-websu">
             <title>gitHub websu</title>
@@ -149,7 +161,7 @@
             <resource>https://github.com/develost/websu</resource>
             <resourceType>external</resourceType>
             <template>genericTemplate.html</template>
-            <createdOn>20150519000000</createdOn>
+            <createdOn>20150714000000</createdOn>
         </page>         
         <page id="error404">
             <title>This is Error 404</title>
@@ -161,7 +173,7 @@
             <resource>error404.md</resource>
             <resourceType>internal</resourceType>
             <template>genericTemplate.html</template>
-            <createdOn>20150519000000</createdOn>
+            <createdOn>20150714000000</createdOn>
         </page>        
     </pages>
 </site>
