@@ -1,9 +1,8 @@
 {{ website.cell('6','last') }}
-#keyframesanimationstudio
+#KeyframesAnimationStudio
 
-Development version here
-
-[here](http://develost.com/apps/keyframesAnimationStudio/last/)
+The project has been renamed to keyframes-playground
+check it [here](http://develost.com/apps/keyframes-playground/last/)
 
 
 {{ website.endCell() }}

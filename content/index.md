@@ -14,7 +14,7 @@ Purposes of my software:
 - **surfway**: generate A CRUD web application starting from an XML.
 - **tython**: CMS capable to run python code.
 - **dlCarousel**: the n-th dynamic carousel for posts, but this is mine.
-- **KeyframesAnimationStudio**: creation of custom CSS3 Keyframes animation via web.
+- **keyframes-playground**: creation of custom CSS3 Keyframes animation via web.
 <br><br>
 
 What is Open Space Technology?
@@ -28,9 +28,9 @@ What is Open Space Technology?
 {{ website.endCell() }}
 
 
-{{ website.link('keyframesanimationstudio','') }}
+{{ website.link('keyframes-playground','') }}
 {{ website.cell('222662','') }}
-#KeyframesAnimationStudio
+#keyframes-playground
 
 Forget manually writing complex CSS3 codes for your custom keyframes animation. Focus on final result and use our web application. For free. 1 click to export/import to file (in development)
 

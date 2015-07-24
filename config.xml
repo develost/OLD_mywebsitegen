@@ -139,6 +139,18 @@
             <template>genericTemplate.html</template>
             <createdOn>20150714000000</createdOn>
         </page>
+        <page id="keyframes-playground">
+            <title>keyframes-playground</title>
+            <subtitle></subtitle>
+            <order>15</order>            
+            <author>me</author>
+            <link>keyframes-playground</link>
+            <home>False</home>
+            <resource>keyframes-playground.md</resource>
+            <resourceType>internal</resourceType>
+            <template>genericTemplate.html</template>
+            <createdOn>20150714000000</createdOn>
+        </page>        
         <page id="websu-params">
             <title>Websu parameters</title>
             <subtitle></subtitle>
