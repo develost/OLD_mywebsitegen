@@ -19,6 +19,18 @@
             <template>genericTemplate.html</template>
             <createdOn>20150714000000</createdOn>
         </page>
+        <page id="cookiepolicy">
+            <title>cookiepolicy</title>
+            <subtitle></subtitle>
+            <order>1000</order>            
+            <author>me</author>
+            <link>cookiepolicy</link>
+            <home>False</home>
+            <resource>cookiepolicy.md</resource>
+            <resourceType>internal</resourceType>
+            <template>genericTemplate.html</template>
+            <createdOn>20150714000000</createdOn>
+        </page>        
         <page id="dlMetro">
             <title>dlMetro</title>
             <subtitle></subtitle>
