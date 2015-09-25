@@ -1,0 +1,203 @@
+<?xml version="1.0"?>
+<site>
+    <title>develost.com</title>
+    <subtitle>Open space for developers</subtitle>
+    <outputFolder>../_mywebsiteout</outputFolder>
+    <contentFolder>./content</contentFolder>
+    <templateFolder>./template</templateFolder>
+    <baseUrl>http://www.develost.com</baseUrl>
+    <pages>
+        <page id="home">
+            <title>Home page</title>
+            <subtitle>st</subtitle>
+            <order>10</order>            
+            <author>me</author>
+            <link>.</link>
+            <home>True</home>
+            <resource>index.md</resource>
+            <resourceType>internal</resourceType>
+            <template>homepageTemplate.html</template>
+            <createdOn>20150925000000</createdOn>
+        </page>
+        <page id="cookiepolicy">
+            <title>cookiepolicy</title>
+            <subtitle></subtitle>
+            <order>1000</order>            
+            <author>me</author>
+            <link>cookiepolicy</link>
+            <home>False</home>
+            <resource>cookiepolicy.md</resource>
+            <resourceType>internal</resourceType>
+            <template>genericTemplate.html</template>
+            <createdOn>20150714000000</createdOn>
+        </page>        
+        <page id="dlMetro">
+            <title>dlMetro</title>
+            <subtitle></subtitle>
+            <order>1</order>            
+            <author>me</author>
+            <link>dlMetro</link>
+            <home>False</home>
+            <resource>dlMetro.md</resource>
+            <resourceType>internal</resourceType>
+            <template>genericTemplate.html</template>
+            <createdOn>20150714000000</createdOn>
+        </page>
+        <page id="surfway">
+            <title>surfway</title>
+            <subtitle></subtitle>
+            <order>1</order>            
+            <author>me</author>
+            <link>surfway</link>
+            <home>False</home>
+            <resource>surfway.md</resource>
+            <resourceType>internal</resourceType>
+            <template>genericTemplate.html</template>
+            <createdOn>20150714000000</createdOn>
+        </page>
+        <page id="github-surfway">
+            <title>gitHub surfway</title>
+            <subtitle></subtitle>
+            <order>-1</order>            
+            <author>me</author>
+            <link>https://github.com/develost/surfway</link>
+            <home>False</home>
+            <resource>https://github.com/develost/surfway</resource>
+            <resourceType>external</resourceType>
+            <template>genericTemplate.html</template>
+            <createdOn>20150714000000</createdOn>
+        </page>
+        <page id="dlMetro-examples">
+            <title>dlMetro examples</title>
+            <subtitle></subtitle>
+            <order>-1</order>            
+            <author>me</author>
+            <link>dlMetro/examples</link>
+            <home>False</home>
+            <resource>examples/dlMetro-examples</resource>
+            <resourceType>external</resourceType>
+            <template>genericTemplate.html</template>
+            <createdOn>20150714000000</createdOn>
+        </page>
+        <page id="dlMetro-core">
+            <title>dlMetro core</title>
+            <subtitle></subtitle>
+            <order>-1</order>            
+            <author>me</author>
+            <link>dlMetro/core</link>
+            <home>False</home>
+            <resource>examples/core</resource>
+            <resourceType>external</resourceType>
+            <template>genericTemplate.html</template>
+            <createdOn>20150714000000</createdOn>
+        </page>
+        <page id="keyframes-animation-studio-demo">
+            <title>keyframes-animation-studio-demo</title>
+            <subtitle></subtitle>
+            <order>-1</order>            
+            <author>me</author>
+            <link>keyframes-animation-studio-demo</link>
+            <home>False</home>
+            <resource>examples/keyframes-animation-studio-demo</resource>
+            <resourceType>external</resourceType>
+            <template>genericTemplate.html</template>
+            <createdOn>20150714000000</createdOn>
+        </page>        
+        <page id="tython">
+            <title>Tython</title>
+            <subtitle></subtitle>
+            <order>11</order>            
+            <author>me</author>
+            <link>tython</link>
+            <home>False</home>
+            <resource>tython.md</resource>
+            <resourceType>internal</resourceType>
+            <template>genericTemplate.html</template>
+            <createdOn>20150714000000</createdOn>
+        </page>
+        <page id="visibility-program">
+            <title>Visibility program</title>
+            <subtitle></subtitle>
+            <order>11</order>            
+            <author>me</author>
+            <link>visibility-program</link>
+            <home>False</home>
+            <resource>visibility-program.md</resource>
+            <resourceType>internal</resourceType>
+            <template>genericTemplate.html</template>
+            <createdOn>20150714000000</createdOn>
+        </page>        
+        <page id="websu">
+            <title>Websu</title>
+            <subtitle></subtitle>
+            <order>12</order>            
+            <author>me</author>
+            <link>websu</link>
+            <home>False</home>
+            <resource>websu.md</resource>
+            <resourceType>internal</resourceType>
+            <template>genericTemplate.html</template>
+            <createdOn>20150714000000</createdOn>
+        </page>
+        <page id="keyframesanimationstudio">
+            <title>keyframesanimationstudio</title>
+            <subtitle></subtitle>
+            <order>15</order>            
+            <author>me</author>
+            <link>keyframesanimationstudio</link>
+            <home>False</home>
+            <resource>keyframesanimationstudio.md</resource>
+            <resourceType>internal</resourceType>
+            <template>genericTemplate.html</template>
+            <createdOn>20150714000000</createdOn>
+        </page>
+        <page id="keyframes-playground">
+            <title>keyframes-playground</title>
+            <subtitle></subtitle>
+            <order>15</order>            
+            <author>me</author>
+            <link>keyframes-playground</link>
+            <home>False</home>
+            <resource>keyframes-playground.md</resource>
+            <resourceType>internal</resourceType>
+            <template>genericTemplate.html</template>
+            <createdOn>20150714000000</createdOn>
+        </page>        
+        <page id="websu-params">
+            <title>Websu parameters</title>
+            <subtitle></subtitle>
+            <order>12</order>            
+            <author>me</author>
+            <link>websu-parameters</link>
+            <home>False</home>
+            <resource>websu-params.md</resource>
+            <resourceType>internal</resourceType>
+            <template>genericTemplate.html</template>
+            <createdOn>20150714000000</createdOn>
+        </page>
+        <page id="github-websu">
+            <title>gitHub websu</title>
+            <subtitle></subtitle>
+            <order>-1</order>            
+            <author>me</author>
+            <link>https://github.com/develost/websu</link>
+            <home>False</home>
+            <resource>https://github.com/develost/websu</resource>
+            <resourceType>external</resourceType>
+            <template>genericTemplate.html</template>
+            <createdOn>20150714000000</createdOn>
+        </page>         
+        <page id="error404">
+            <title>This is Error 404</title>
+            <subtitle>This is Error 404 page</subtitle>
+            <order>-404</order>            
+            <author>me</author>
+            <link>Error 404</link>
+            <home>False</home>
+            <resource>error404.md</resource>
+            <resourceType>internal</resourceType>
+            <template>genericTemplate.html</template>
+            <createdOn>20150714000000</createdOn>
+        </page>        
+    </pages>
+</site>

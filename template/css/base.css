@@ -1,0 +1,74 @@
+body{
+overflow:hidden;
+}
+
+.main-container{
+    background:#ffffff;
+}
+
+
+.footer-container{
+    background:#999999;
+}
+
+
+.fe  circle{
+    fill:red;
+	opacity:0.5;    
+}
+
+.be  circle{
+    fill:green;
+	opacity:0.5;    
+}
+
+.db  circle{
+    fill:blue;
+	opacity:0.5;    
+}
+
+.fe:hover circle{
+	opacity:0.7;    
+}
+.be:hover circle{
+	opacity:0.7;    
+}
+.db:hover circle{
+	opacity:0.7;    
+}
+
+
+
+
+.title{
+    font-family:sans-serif;
+    font-size:10;
+    text-anchor:middle;
+    fill:white;
+}
+.group .project {
+    font-family:sans-serif;
+    font-size:4;
+    text-anchor:middle;
+    fill:black;
+    font-weight:bold;    
+}
+
+.group .project2 {
+    font-family:sans-serif;
+    font-size:4;
+    text-anchor:middle;
+    fill:transparent;
+    font-weight:bold;    
+}
+
+.group:hover >a>.db{fill:blue;}
+.group:hover >a>.be{fill:green;}
+.group:hover >a>.fe{fill:red;}
+
+.credits {
+    font-family:sans-serif;
+    font-size:3;
+    text-anchor:start;
+    fill:black;
+}
